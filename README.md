@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-1. Describe component state.
+React JS is a coding language that combines HTML, CSS and JavaScript by using JSX. It allows to break an app and/or website down into smaller components. This is important, because as apps gain a huge spike in the user bas, it takes more memory to run properly. React allows you to conserve as much memory as possible by preventing leaks to give then a better user experience. You can also easily modify the "state" or current app's apperence/behaviour based on the user's actions, such as clicking a like button.
 
-1. Describe props.
+2. Describe component state.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+React components has a built-in state object. The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders. Creating the state Object.
+
+3. Describe props.
+
+Props are basically attributes that you pass through components that determine their look and feel. For example, you could pass animage source through a prop tag to determine which image should render. Or you could pass header/ paragraph styles through parameters to identify how they should look upon rendering.
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+If a function attempts to modify something outside of its scope, then this is a side effect or a memory leak. Sideeffects can be prevented by surrounding the code in a useEffect hook. Putting an empty array at the end tells it to render once. Or specifying a specific array will cause it to only render on that individual element.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
