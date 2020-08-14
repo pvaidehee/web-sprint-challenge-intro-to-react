@@ -16,6 +16,7 @@ const Cards = (props) => {
                         <h3>Gender: {character.gender}</h3>
                         <h3>Status: {character.status} </h3>
                         <h3>Species: {character.species}</h3>
+                        <h3>Type: {character.type}</h3>
 
                         <Img src = {character.image}></Img>
                     </Card>
@@ -36,7 +37,7 @@ const Card = styled.div`
 background: lavender;
 border: 2px solid red;
 border-radius:15%;
-width:30%;
+width:20%;
 margin: 20px 0;
 padding: 3px;
 box-shadow: 5px 5px 20px black;
