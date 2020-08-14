@@ -35,18 +35,26 @@ align-items: center;
 const Card = styled.div`
 background: lavender;
 border: 2px solid red;
-border-radius:20%;
+border-radius:15%;
 width:30%;
 margin: 20px 0;
 padding: 3px;
 box-shadow: 5px 5px 20px black;
 color: plum;
+:hover{
+    transition: all 0.25s ease-in-out;
+    transform: scale(1.2) rotate(5deg);
+}
 `;
 
 const Img = styled.img`
 border:2px solid hotpink;
-border-radius: 80%;
+border-radius: 40%;
 max-width: 70%;
+:hover{
+    transition: all 0.25s ease-in-out;
+    transform: scale(0.7) rotate(-10deg);
+}
 `;
 
 export default Cards;

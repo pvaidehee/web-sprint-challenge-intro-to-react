@@ -44,7 +44,7 @@ h1 {
 :hover {
   color: #CC0066;
   transition: all 0.25s ease-in-out;
-  transform: scale(2);
+  transform: scale(2) rotate(-7deg);
 }
 }
 `;
