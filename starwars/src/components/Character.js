@@ -33,20 +33,20 @@ align-items: center;
 `;
 
 const Card = styled.div`
-background: #009999;
-border: 2px solid orange;
+background: lavender;
+border: 2px solid red;
 border-radius:20%;
 width:30%;
 margin: 20px 0;
 padding: 3px;
 box-shadow: 5px 5px 20px black;
-color: salmon;
+color: plum;
 `;
 
 const Img = styled.img`
-border:2px solid lightgrey;
-border-radius: 10%;
-max-width: 100%;
+border:2px solid hotpink;
+border-radius: 80%;
+max-width: 70%;
 `;
 
 export default Cards;
